@@ -27,7 +27,6 @@ function repElement(elemArr) {
     inputAuto.classList.add('inputSearch')
     inputAuto.textContent = name;
     inputAuto.setAttribute('data-id', arr.length - 1);
-    console.log(inputAuto.dataset.id)
     fragment.appendChild(inputAuto)
     container.appendChild(fragment);
 }

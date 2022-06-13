@@ -20,10 +20,7 @@ function newParagraph(count, insertElement) {
     insertElement.appendChild(p);
 }
 
-function newParagraph()
 
 topTarget.addEventListener('click', (e) => {
-    console.log(arr);
-    console.log(e.target);
     newPaint(e.target);
 })
