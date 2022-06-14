@@ -10,7 +10,6 @@ const debounce = (fn, debounceTime) => {
     }
 };
 input.addEventListener('input', debounce(() => {
-
     if (input.value) { getRepositories(input.value) }
 }, 500))
 
